@@ -1,3 +1,4 @@
+<!HOME PAGE>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,25 +20,26 @@
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="/style.css" />
-
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
   <body>
-    <!-- Grid Template -->
+    <!-- Grid Template --
     <div class="w3-row">
       <div class="w3-col m1 w3-center w3-grey">1</div>
-      <div class="w3-col m1 w3-center">2</div>
+      <div class="w3-col m1 w3-center w3-white">2</div>
       <div class="w3-col m1 w3-center w3-grey">3</div>
-      <div class="w3-col m1 w3-center">4</div>
+      <div class="w3-col m1 w3-center w3-white">4</div>
       <div class="w3-col m1 w3-center w3-grey">5</div>
-      <div class="w3-col m1 w3-center">6</div>
+      <div class="w3-col m1 w3-center w3-white">6</div>
       <div class="w3-col m1 w3-center w3-grey">7</div>
-      <div class="w3-col m1 w3-center">8</div>
+      <div class="w3-col m1 w3-center w3-white">8</div>
       <div class="w3-col m1 w3-center w3-grey">9</div>
-      <div class="w3-col m1 w3-center">10</div>
+      <div class="w3-col m1 w3-center w3-white">10</div>
       <div class="w3-col m1 w3-center w3-grey">11</div>
-      <div class="w3-col m1 w3-center">12</div>
+      <div class="w3-col m1 w3-center w3-white">12</div>
     </div>
     <!-- End of Grid Template -->
 
@@ -60,7 +62,9 @@
           </div>
 
           <!-- Use any element to open/show the overlay navigation menu -->
-          <span style="font-size:50px;cursor:pointer;" onclick="openNav()"
+          <span
+            style="font-size:50px;cursor:pointer;color:#d6ff8a;"
+            onclick="openNav()"
             >&#9776;</span
           >
           <div class="main">
@@ -79,13 +83,76 @@
         </div>
         <!-- Start of Home Page -->
 
-        <!-- Text and Image -->
+        <!-- Text and Images-->
+        <!-- Empty Box -->
         <div class="w3-row">
-          <div class="w3-col s12 m12 l12 w3-border w3-white">
+          <div class="w3-col s12 m12 l12 w3-border">
             <p></p>
           </div>
         </div>
+        <!-- End of Empty Box -->
+        <!-- First Image and Text -->
+        <div class="w3-row w3-white">
+          <div class="w3-col s6 m6 l6 w3-white">
+            <p id="demo">
+              Welcome to this website! To find out what we aim to acheive
+              through this website, click on the 3 lime green bars and click on
+              "about". <br />
+              To find out what <b>YOU</b> can do, click on "How You Can
+              Help".<br />
+              To find out more about what's going on, click on "What's
+              Happening".
+            </p>
+          </div>
+          <div class="w3-rest w3-white">
+            <img
+              src="https://cdn.glitch.com/a6aa8ea2-f199-4aaf-a15c-6cded293d70f%2Frhino-africa-namibia-nature-dry-wallpaper-preview.jpg?v=1591150890209"
+              alt="Two Rhino's"
+              class="responsive"
+            />
+          </div>
+        </div>
+        <div class="w3-row">
+          <p></p>
+        </div>
 
+        <!-- Second Row of Images -->
+        <div class="w3-row">
+          <div class="w3-col s5 m5 l6 w3-white">
+            <img
+              src="https://cdn.glitch.com/a6aa8ea2-f199-4aaf-a15c-6cded293d70f%2F5089894581_c92cff81b8_b.jpg?v=1591153188649"
+              alt="One Rhino"
+              class="responsive"
+            />
+          </div>
+          <div class="w3-col s2 m2 l2">
+            <p></p>
+          </div>
+          <div class="w3-col s5 m5 l6 w3-white">
+            <img
+              src="https://cdn.glitch.com/a6aa8ea2-f199-4aaf-a15c-6cded293d70f%2FWebp.net-resizeimage%20(2).jpg?v=1591153848575"
+              alt="One Rhino"
+              class="responsive"
+            />
+          </div>
+        </div>
+
+        <!-- Second Row of Text -->
+        <div class="w3-row">
+          <div class="w3-col s5 m5 l6 w3-white">
+            <p>
+              Helo, test, this is some filler text
+            </p>
+          </div>
+          <div class="w3-col s2 m2 l2">
+            <p></p>
+          </div>
+          <div class="w3-col s5 m5 l6 w3-white">
+            <p>
+              Helo, test, this is some filler text
+            </p>
+          </div>
+        </div>
         <!-- Button to go to top of page -->
         <button onclick="topFunction()" id="myBtn" title="Go to top">
           ⇧
@@ -93,5 +160,10 @@
         <!-- End of Button -->
       </div>
     </div>
+    <!-- Custom Loading Screen -->
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <!-- End of custom Loader -->
   </body>
 </html>
