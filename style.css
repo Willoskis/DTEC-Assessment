@@ -53,6 +53,10 @@ h5 {
   padding: 0.2em 0 0.2em 0;
 }
 
+p {
+  color: black;
+  font-size:
+}
 /* End of Header CSS */
 /* Navbar CSS */
 .overlay {
@@ -319,7 +323,19 @@ footer {
   background-color: Grey;
   color: white;
 }
+/* Responsive Text */
+div.text {
+  padding: 20px;
+}
 
-text {
-  background-image: linear-gradient(red, yellow);
+@media screen and (min-width: 601px) {
+  div.text {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.text {
+    font-size: 15px;
+  }
 }
