@@ -1,4 +1,5 @@
-/* CSS files add styling rules to your content */
+                            /* CSS files add styling rules to your content */
+
 html {
   font-family: Archivo Narrow;
   color: black;
@@ -11,6 +12,8 @@ body {
   margin: 0;
   width: 100%;
 }
+
+                                          /* HERO IMAGE */
 .hero-image {
   background-image: url("https://cdn.glitch.com/a6aa8ea2-f199-4aaf-a15c-6cded293d70f%2Fwhite-rhino-4477306_960_720.jpg?v=1587940670659"); /* The image used */
   background-color: blue; /* Used if the image is unavailable */
@@ -24,8 +27,8 @@ body {
   height: 100vh;
   text-allign: center;
 }
-
-/* Header CSS */
+  
+                                        /* Header and Text CSS */
 h1 {
   color: white;
   font-family: Amaranth;
@@ -53,12 +56,15 @@ h5 {
   padding: 0.2em 0 0.2em 0;
 }
 
+a {
+  font-family: Amaranth;
+}
+
 p {
   color: black;
-  font-size:
 }
-/* End of Header CSS */
-/* Navbar CSS */
+                                  /* End of Header and Text CSS */
+                                          /* Navbar CSS */
 .overlay {
   height: 100%;
   width: 0;
@@ -69,7 +75,7 @@ p {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 1s; /* <-- Makes the overlay transition take a second to animate */
 }
 
 .overlay-content {
@@ -84,14 +90,14 @@ p {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #f1f1f1;
+  color: lightgreen;
 }
 
 .overlay .closebtn {
@@ -111,16 +117,16 @@ p {
     right: 35px;
   }
 }
-/* End of Custom Navbar CSS */
+                                      /* End of Custom Navbar CSS */
 
-/* Rounded border */
+                                          /* Rounded border */
 hr.rounded {
   border-top: 5px solid #bbb;
   border-radius: 5px;
 }
-/* End of Rounded Border */
+                                      /* End of Rounded Border */
 
-/* Place text in the middle of the image */
+                                /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
   position: absolute;
@@ -130,7 +136,7 @@ hr.rounded {
   color: white;
 }
 
-/* Top Button */
+                                  /* Top Button (Take you to top of page) */
 
 #myBtn {
   display: none; /* Hidden by default */
@@ -159,8 +165,10 @@ hr.rounded {
   width: 100%;
   height: 100%;
 }
+  
+                                      /* End of Top Button */
 
-/* Loader */
+                                      /* Custom Loading Screen */
 .loader-wrapper {
   width: 100%;
   height: 100%;
@@ -228,9 +236,10 @@ hr.rounded {
   width: 100%;
   height: auto;
 }
+                                        /* End of Custom Loader */
 
-/*Modal Image */
-/* Style the Image Used to Trigger the Modal */
+                                      /*Modal Image - (UNUSED CSS)*/
+                              /* Style the Image Used to Trigger the Modal */
 #myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -241,7 +250,7 @@ hr.rounded {
   opacity: 0.7;
 }
 
-/* The Modal (background) */
+                                      /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -256,7 +265,7 @@ hr.rounded {
   background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
 }
 
-/* Modal Content (Image) */
+                                      /* Modal Content (Image) */
 .modal-content {
   margin: auto;
   display: block;
@@ -264,7 +273,7 @@ hr.rounded {
   max-width: 700px;
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
+                    /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
   display: block;
@@ -276,7 +285,7 @@ hr.rounded {
   height: 150px;
 }
 
-/* Add Animation - Zoom in the Modal */
+                                /* Add Animation - Zoom in the Modal */
 .modal-content,
 #caption {
   animation-name: zoom;
@@ -292,7 +301,7 @@ hr.rounded {
   }
 }
 
-/* The Close Button */
+                                        /* The Close Button */
 .close {
   position: absolute;
   top: 15px;
@@ -310,7 +319,7 @@ hr.rounded {
   cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
+                                /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
@@ -323,7 +332,9 @@ footer {
   background-color: Grey;
   color: white;
 }
-/* Responsive Text */
+                                  /* End of UNUSED Modal Image CSS */
+
+                                      /* Responsive Text CSS */
 div.text {
   padding: 20px;
 }
@@ -339,3 +350,4 @@ div.text {
     font-size: 15px;
   }
 }
+                                  /* End of Responsive Text CSS */

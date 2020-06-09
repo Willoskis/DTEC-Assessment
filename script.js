@@ -7,6 +7,7 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
 
+
 //"TOP BUTTON"
 //Get the button
 var mybutton = document.getElementById("myBtn");
