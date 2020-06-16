@@ -15,7 +15,7 @@ body {
 
 /* HERO IMAGE */
 .hero-image {
-  background-image: url("https://cdn.glitch.com/a6aa8ea2-f199-4aaf-a15c-6cded293d70f%2Fwhite-rhino-4477306_960_720.jpg?v=1587940670659"); /* The image used */
+  background-image: url("https://cdn.glitch.com/a6aa8ea2-f199-4aaf-a15c-6cded293d70f%2Fwhite-rhino-4477306_960_720.jpg?v=1587940670659"); /* The image used on the hero image */
   background-color: blue; /* Used if the image is unavailable */
   height: 260px; /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -33,7 +33,7 @@ h1 {
   color: white;
   font-family: Amaranth;
   font-size: 46px;
-  text-shadow:2px 1px 0 #444;
+  text-shadow:3px 1px 0 #444;
 }
 
 h3 {
@@ -41,12 +41,13 @@ h3 {
   font-size: 20px;
   font-style: italic;
   color: white;
-  text-shadow:2px 1px 0 #444;
+  text-shadow:3px 0px 0 #444;
 }
 
 h4 {
   color: black
   font-size: 15px;
+  font-family: Alata;
 }
 
 h5 {
@@ -62,6 +63,7 @@ a {
 
 p {
   color: black;
+  font-family: Alata;
 }
 /* End of Header and Text CSS */
 /* Navbar CSS */
@@ -146,8 +148,8 @@ hr.rounded {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
+  background-color: #d6ff8a; /* Set a background color */
+  color: black; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
@@ -352,7 +354,9 @@ div.text {
 }
 /* End of Responsive Text CSS */
 
-.solid {border-style: solid;}
+.solid {
+  border-style: solid;
+}
 
 
 /* Footer Image Styling Class */
@@ -368,6 +372,6 @@ div.text {
   font-size:50px;
   cursor:pointer;
   color:#d6ff8a;
-  text-shadow:3px 1px 0 #444;
+  text-shadow:5px 3px 0 #444;
 }
 /* Navbar Styling Class End */
